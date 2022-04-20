@@ -30,8 +30,10 @@ export default {
 
 <template>
   <div class="home">
+    <a href="https://github.com/login/oauth/authorize?client_id=c83a4deb9a15cb7036ea">Sign into GitHub</a>
     <div v-for="post in posts" v-bind:key="post.id">
-      <p>{{ post }}</p>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.body }}</p>
     </div>
   </div>
 </template>
