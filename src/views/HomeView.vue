@@ -38,6 +38,13 @@ export default {
 <template>
   <div class="home">
     <a href="https://github.com/login/oauth/authorize?client_id=c83a4deb9a15cb7036ea">Sign into GitHub</a>
+    <div>
+      <img
+        src="https://media3.giphy.com/media/o0vwzuFwCGAFO/200w.gif?cid=82a1493b8h2j0r41x5lui6jxz4yrg7m4qt5zqg7umt7rm4m5&rid=200w.gif&ct=g"
+        alt=""
+      />
+      <img src="https://c.tenor.com/58DNSt-Lvw0AAAAM/corgi-computer.gif" alt="" />
+    </div>
     <div v-for="post in posts" v-bind:key="post.id">
       <h3>{{ post.title }}</h3>
       <p>{{ post.body }}</p>
